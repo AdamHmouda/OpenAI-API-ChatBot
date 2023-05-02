@@ -65,10 +65,11 @@ To restore a conversation that you have previously backed up , Simply drag and d
 
 ### Bot Personality Behavior
 
-Users can configure the chatbot personality by clicking the `Bot Configuration` button, which will open up a new window with settings for the chatbot's personality called `Choose Bot Personality`, to set a specifiq personality for the bot `you just simply type in the entry field` what personality you want the bot to respond with and click the `Confirm Button` example in the picture below :
+Users can configure the chatbot personality by clicking the `Bot Configuration` button, which will open up a new window with settings for the chatbot's personality called `Choose Bot Personality`, to set a specifiq personality for the bot `you simply type in the entry field` what personality you want the bot to respond with and click the `Confirm Button`. After changing the bot personality, the bot will start to respond as the chosen personality would, example in the picture below :
 
 ![This is an image](./b1.png)
 `Result`
+In the previous picture that is in the color Scheme section the bot responded as a general A.I would but after making the changes the bot responded as a potato :
 ![This is an image](./b2.png)
 
 ### Bot Output Settings
