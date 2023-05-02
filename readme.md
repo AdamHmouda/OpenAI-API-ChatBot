@@ -30,14 +30,14 @@ To create your API key go to : https://platform.openai.com and create your free 
 
 I have included a keytest.py which tests if your key is valid before using it for the chatbot , using this py file is not necessary its just a way to check in case for errors that your key is actually working/copied fine.
 
-To use this keytest , simply paste your API key into `openai.api_key = "YOUR KEY"`, replace `YOUR KEY` with your `OpenAI API key` 
+To use this keytest , simply paste your API key into `openai.api_key = "YOUR KEY"`, replace `YOUR KEY` with your `OpenAI API key`.
 
 ### Login Screen
 When you first run the program you will be presented with a login screen to enter your `OpenAI API Key`(If you dont have a key, check the section above on how to get one). If the key is valid you will be redirected to the main screen where you can chat with and modify the bot.
 
 You can also choose to click on the `Remember key Button` inside the login screen so that you wont need to enter your API key each time you run the program ,this works by storing your api key inside a json file called `remembered_key.json`, beside that after pressing the `Remember Key Button` you will be presented with `Forget Key Button` , press this button if you wish to not save your key, by doing so you will be asked to enter your API Key each time you want to use the Chatbot.
 
-Another usefull button is the `Reset Login Button`, this button will delete the json file that stores your API key when you saved it using the `Remember Key Button`. That way you can type and store other API keys , `Note that only one API key can be stored`
+Another usefull button is the `Reset Login Button`, this button will delete the json file that stores your API key when you saved it using the `Remember Key Button`. That way you can type and store other API keys , `Note that only one API key can be stored`.
 
 ### Chatting With The Bot
 
@@ -49,7 +49,7 @@ To chat with the bot simply navigate to the `Chatbot Screen` after login in, wri
 
 Users can customize the chatbox color scheme `by clicking on Bot Configuration Button` and `navigating to the Chat Color Settings` Section and Finally `typing what collor they need` for either the `User chat` or the `Bot chat`and `clicking` on the `Confirm Button`.
 
-`Note that you need to rerun the program for the changes to work`
+`Note that you need to rerun the program for the changes to work`.
 
 ![This is an image](./color1.png)
 `Result`
@@ -71,6 +71,8 @@ Users can configure the chatbot personality by clicking the `Bot Configuration` 
 `Result`
 In the previous picture that is in the color Scheme section the bot responded as a general A.I would but after making the changes the bot responded as a potato :
 ![This is an image](./b2.png)
+
+`Note that you need to rerun the program for the changes to work`.
 
 ### Bot Output Settings
 
@@ -94,11 +96,12 @@ Frequency Penalty: This parameter discourages the model from repeating the same 
 ```
 Presence Penalty: This parameter discourages the model from including certain words or phrases in the generated text. Setting this parameter to a higher value will result in outputs that are less likely to contain specific words or phrases, while setting it to a lower value will result in outputs that are more likely to contain those words or phrases.
 ```
-The user can also reset these paramaters to default settings by clicking on the `Reset To Default Button`
+The user can also reset these paramaters to default settings by clicking on the `Reset To Default Button`.
+`Note that you need to rerun the program for the changes to work`.
 
-To view all current applied settings press the `Show Current Settings Button`. This will show a `Messagebox` containing all current applied data
+To view all current applied settings press the `Show Current Settings Button`. This will show a `Messagebox` containing all current applied data.
 
-`NOTE` each time you want to change setting inside a particular section , `You need to modify all the settings in that section.` For Example you cant just change the `Temperature` that is part of the `Output settings Section`, you need to also change the `Max Tokens`, `Top P`, `Frequency Penalty` and `Presence Penalty` before clicking on `Confirm`
+`NOTE` each time you want to change setting inside a particular section , `You need to modify all the settings in that section.` For Example you cant just change the `Temperature` that is part of the `Output settings Section`, you need to also change the `Max Tokens`, `Top P`, `Frequency Penalty` and `Presence Penalty` before clicking on `Confirm`.
 ### Exiting
 
 It is preffered to exit the chatbot program by clicking on the `Exit Button` above the `Chatbox` this way the program can save the data correctly when it closes.
