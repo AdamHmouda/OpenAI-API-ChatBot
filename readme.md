@@ -61,7 +61,7 @@ Users can backup their conversation history by clicking the `Backup Conversation
 
 ### Restoring Conversation
 
-To restore a conversation that you have previously backed up , Simply drag and drop the `Conversation.json` file to the code directory.
+To restore a conversation that you have previously backed up , Simply drag and drop the `Conversation.json` file to the directory where main.py is located.
 
 ### Bot Personality Behavior
 
