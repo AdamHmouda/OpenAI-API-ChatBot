@@ -1,6 +1,6 @@
-# Chatbot
+# OpenAI Chatbot
 
-This is a simple chatbot program that uses a graphical user interface (GUI) built with the tkinter library in Python. The chatbot allows users to input text and get responses based on pre-loaded conversation prompts. The program also includes features for backing up and deleting conversation history, changing the color scheme, and configuring the bot.
+This is a simple chatbot program that uses a graphical user interface (GUI) built with the tkinter library in Python and the OpenAI API. The chatbot allows users to input text and get responses based on pre-loaded conversation prompts. The program also includes features for backing up and deleting conversation history, changing the color scheme, and configuring the bot behavior.
 
 ## Getting Started
 
